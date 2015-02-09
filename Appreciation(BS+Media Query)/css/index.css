@@ -1,0 +1,267 @@
+.container-fluid1
+{
+    border: 2px solid;
+}
+.header
+{
+    background-color: rgba(211, 211, 211, 0.72);
+    border-bottom: 1px solid ;
+    padding:2%;
+    width:100%;
+
+}
+body
+{
+background-color: rgba(243, 243, 210, 0.17);
+}
+.dropdown
+{
+    width: 40%;
+    margin-left: 33%;
+
+}
+.header .leftarrow
+{
+    float:left;
+    font-size: 30px;
+    margin:0% 0% 0% 5%;
+    color: #0962c4;
+}
+.header .dropdown a,.dropdown-menu,li
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+
+}
+.dropdown-menu li{
+    text-align: center;
+}
+.row1 {
+    border: 1px solid lightgrey ;
+    margin-top: 2%;
+    background-color: rgba(251, 255, 219, 0.37);
+    margin-left: 3%;
+    width: 95%;
+    font-family: 'Raleway', sans-serif;
+}
+.img1
+{
+    width:20%;
+    height:20%;
+    float:left;
+    margin:3% 5% 3% 10%;
+    border:4px solid #cfcfcf;
+}
+h3
+{
+    float:left;
+    margin:3% 5% 2% 0%;
+}
+.close
+{
+    float:right;
+    font-size: 30px;
+    margin-right:15%;
+    margin-top:7%;
+}
+.labeldropdown
+{
+    margin:2%;
+}
+.labeldropdown label
+{
+    margin-left: 10%;
+    float:left;
+    margin-top:1%;
+}
+.form-control
+{
+    margin-left: 20%;
+    width:30%;
+}
+.dotbutton
+{
+    float:right;
+
+}
+.scroll{
+    max-height: 640px;
+    overflow-y:scroll;
+    margin-right: 2%;
+
+}
+.appreciation
+{
+    border: 1px solid lightgrey ;
+    background-color: rgba(251, 255, 219, 0.37);
+    margin-bottom:2%;
+    width:96%;
+    margin-left:3%;
+
+}
+.img2
+{
+    margin:17% 0% 3% 40%;
+    border:4px solid #cfcfcf;
+    float:left;
+    width: 65%;
+}
+.star
+{
+    width:11%;
+    font-size:180%;
+    margin:5% 0% 2% 1%;
+    float:left;
+    color: #FFC700;
+    pointer-events:none;
+}
+.col-md-1
+{
+    width:15%;
+}
+.type
+{
+    margin:5% 0% 3% 0%;
+
+}
+.text
+{
+    margin:0% 5% 1% 3%;
+
+}
+.likeNcomment
+{
+    margin:0% 5% 0% 3%;
+}
+.likecomment
+{
+    margin:1% 0% 1% 3%;
+}
+.likecomment button
+{
+    margin-right:4%;
+}
+.heartbutton span
+{
+    color: #ac0000;
+}
+
+.commentbutton span
+{
+    color: #a7a7a7;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+
+    .img2
+    {
+        width:90%;
+    }
+    .star
+    {
+        margin-top:5%;
+
+        font-size: 165%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+
+    h3
+    {
+        font-size: 20px;
+    }
+    .close
+    {
+        font-size: 20px;
+    }
+    .img1
+    {
+        width:30%;
+    }
+    .img2
+    {
+        width:65%;
+    }
+    .star
+    {
+
+        font-size: 150%;
+    }
+    .row2 .col-md-1
+    {
+        width:22%;
+    }
+    .text
+    {
+    font-size: 13px;
+    }
+    .likeNcomment
+    {
+    font-size:12px;
+    }
+    .likecomment button
+    {
+    font-size: 12px;
+    }
+}
+
+ /*Extra Small Devices, Phones*/
+@media only screen and (max-width : 480px){
+    .header .leftarrow
+    {
+        font-size: 22px;
+    }
+    .header .dropdown a
+    {
+        font-size: 15px;
+    }
+    h3
+    {
+        margin-top:10%;
+        font-size: 15px;
+    }
+    .close
+    {
+        font-size: 18px;
+        margin-top:25%;
+    }
+    .labeldropdown label
+    {
+        margin-right:5%;
+    }
+
+    .img1
+    {
+        width:60%;
+    }
+    .img2
+    {
+        width:110%;
+    }
+    .star
+    {
+        margin-top:7%;
+        font-size: 84%;
+    }
+    .type p{
+        font-size: 14px;
+    }
+
+    .text
+    {
+        font-size: 12px;
+    }
+    .likeNcomment
+    {
+        font-size:11px;
+    }
+    .likecomment button
+    {
+        font-size: 10px;
+    }
+}
